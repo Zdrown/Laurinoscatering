@@ -60,7 +60,7 @@ const CateringForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_v7gv9lu", "template_miq4jlj", e.target, "4_FoCKXK1P_QJueGi")
+      .sendForm("service_zugs63p", "template_1sxghbk", e.target, "WvCJtqwLGnQLIy2c1")
       .then(
         (result) => {
           console.log(result.text);
@@ -96,6 +96,7 @@ const CateringForm = () => {
             <option value="Wedding">Wedding</option>
             <option value="Corporate Event">Corporate Event</option>
             <option value="Family Gathering">Family Gathering</option>
+            <option value="Family Gathering">Other</option>
           </Select>
         </FormGroup>
         <FormGroup>
